@@ -1,0 +1,98 @@
+html{
+    width: 1280px;
+    height: 720px;
+    background-color: #121214;
+    border-radius: 12px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    margin-top: 73px;
+}
+
+body {
+    max-width: 700px;
+    margin: 0 auto;
+}
+section .sessao__Usuario {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+ul {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+ul .item__Usuarios {
+    width: 100%;
+    height: 194px;
+}
+
+.lista__Usuarios li figure {
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    }
+
+.lista__Usuarios li figure .imagem__Avatar {
+    border-radius: 8px;
+    border: transparent 3px solid;
+}
+
+
+.lista__Usuarios li figure .imagem__Avatar:hover {
+    border-radius: 8px;
+    border: #ffffff 3px solid;
+    transform: scale(1.5);
+}
+
+ul li p  {
+    color: #9C9C9C;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    line-height: 18px;
+    margin: 0 auto;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button .gerenciar_btn {
+    width: 206px;
+    height: 50px;
+    background-color: #121214;
+    color: #FFFFFF;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 8px;
+    margin-top: 102px;
+}
+
+.button .gerenciar_btn:hover {
+    width: 206px;
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #121214;
+    border: 1.5px solid #121214;
+    border-radius: 8px;
+}
